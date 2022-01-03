@@ -10,13 +10,17 @@ h1 {
 }
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 .half-width img {
-    width: 100%;
+    width: 90%;
+}
+.half-width p {
+    width: 90%;
 }
 .link-button {
     text-decoration: none;
@@ -33,4 +37,33 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
+
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.anchor-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#FF8E6B, #FF6A4D);
+    color: #fff;
+}
+
+
+
+
+
+
 
