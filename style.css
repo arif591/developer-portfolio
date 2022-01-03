@@ -1,1 +1,36 @@
-fgn
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.orenge-color {
+    color: orange;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right,#FF8E6B, #FF6A4D);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
