@@ -5,12 +5,23 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .orenge-color {
     color: orange;
 }
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
+}
+
+
+/* Start .top-banner */
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .half-width {
     width: 50%;
@@ -32,17 +43,10 @@ section {
     font-weight: 600;
     display: inline-block;
 }
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* End top-banner */
 
 
-
-
-
-
+/* Start dream Big */
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
@@ -60,10 +64,24 @@ section {
     background-image: linear-gradient(to right,#FF8E6B, #FF6A4D);
     color: #fff;
 }
+/* End dream big */
 
 
-
-
-
+/* Start experiences */
+.experience-area {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* background-position-y: bottom; */
+}
+.experience-item {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+/* End experiences */
 
 
