@@ -75,13 +75,28 @@ h2 {
     /* background-position-y: bottom; */
 }
 .experience-item {
-    width: 40%;
-    margin: 0 5%;
+    width: 50%;
+    margin: 0 3%;
     box-shadow: 10px 10px 40px gray;
     padding-top: 10px;
     padding-bottom: 60px;
     padding-left: 20px;
 }
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
 /* End experiences */
 
-
+/* Start footer */
+footer p {
+    text-align: center;
+    color: gray;
+}
+/* End footer */
